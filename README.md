@@ -18,7 +18,7 @@ rustup target add thumbv7em-none-eabihf
 ### probe-rs
 
 > **Note:** A full flashing and debugging guide using probe-rs will be added here. For now, make sure you install it the right way — **use the prebuilt installer, not `cargo install`**, as building from source takes a very long time and is unnecessary.
-> **Note:** Also for installing probe-rs and the target, you're much better off referring to the actual documentation for it, I'll change this to have more details when I go through the toolchain again
+**Note:** Also for installing probe-rs and the target, you're much better off referring to the actual documentation for it, I'll change this to have more details when I go through the toolchain again
 **Windows (PowerShell):**
 ```powershell
 irm https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.ps1 | iex
