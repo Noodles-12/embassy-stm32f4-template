@@ -4,7 +4,7 @@ A minimal Embassy project template for the STM32F446RE (Nucleo-F446RE), using as
 
 ## What This Is For
 
-This template gets you up and running with [Embassy](https://embassy.dev) on the STM32F446RE as quickly as possible — no fighting with dependency versions or boilerplate. It includes the right `Cargo.toml`, `.cargo/config.toml`, `memory.x`, and `Embed.toml` configuration for the Nucleo-F446RE board out of the box.
+This template gets you up and running with [Embassy](https://embassy.dev) on the STM32F446RE as quickly as possible. It includes the right `Cargo.toml`, `.cargo/config.toml`, `memory.x`, and `Embed.toml` configuration for the Nucleo-F446RE board out of the box.
 ## Requirements
 
 ### Rust Toolchain
@@ -17,7 +17,7 @@ rustup target add thumbv7em-none-eabihf
 
 ### probe-rs
 
-> **Note:** A full flashing and debugging guide using probe-rs will be added here. For now, make sure you install it the right way — **use the prebuilt installer, not `cargo install`**, as building from source takes a very long time and is unnecessary.
+> **Note:** A full flashing and debugging guide using probe-rs will be added here. For now, make sure you install it the right way. **Use the prebuilt installer, not `cargo install`**, as building from source takes a very long time and is unnecessary.
 
 > **Also: for installing probe-rs and the ARM target, you're much better off referring to the actual documentation. More details will be added here when I go through the toolchain setup again.**
 **Windows (PowerShell):**
